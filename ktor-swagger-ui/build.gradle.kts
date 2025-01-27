@@ -41,9 +41,9 @@ dependencies {
 
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin:$versionJackson")
 
-    implementation("io.github.smiley4:schema-kenerator-core:$versionSchemaKenerator")
-    implementation("io.github.smiley4:schema-kenerator-reflection:$versionSchemaKenerator")
-    implementation("io.github.smiley4:schema-kenerator-swagger:$versionSchemaKenerator")
+    api("io.github.smiley4:schema-kenerator-core:$versionSchemaKenerator")
+    api("io.github.smiley4:schema-kenerator-reflection:$versionSchemaKenerator")
+    api("io.github.smiley4:schema-kenerator-swagger:$versionSchemaKenerator")
 
     implementation("io.github.oshai:kotlin-logging-jvm:$versionKotlinLogging")
 
